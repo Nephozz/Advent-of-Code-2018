@@ -1,4 +1,4 @@
-package main
+package days
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Day1() {
 	input, err := os.ReadFile("inputs/day1")
 	if err != nil {
 		fmt.Println("Error opening file")
