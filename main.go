@@ -21,7 +21,10 @@ func main() {
 	case 1:
 		days.Day1()
 	case 2:
-		days.Day2()
+		fmt.Print("Part 1 - ")
+		days.Day2Part1()
+		fmt.Print("Part 2 - ")
+		days.Day2Part2()
 	default:
 		fmt.Println("Invalid day !")
 	}
